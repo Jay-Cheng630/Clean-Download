@@ -58,7 +58,7 @@ public class DownloadUtil {
             }
         } catch (Exception e) {
             System.out.println("请求失败了: " + e.getMessage());
-            // e.printStackTrace(); 这句不开了，控制台看着烦
+            // e.printStackTrace(); 
         }
         return null;
     }
